@@ -1,0 +1,22 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - total_sales
+  - average_sales
+  - highest_sales
+  - lowest_sales
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you?"
+
+  utter_goodbye:
+    - text: "Goodbye!"
+
+actions:
+  - action_total_sales
+  - action_average_sales
+  - action_highest_sales
+  - action_lowest_sales

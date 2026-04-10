@@ -1,0 +1,52 @@
+{
+  "text": {
+    "hi": 5,
+    "hello": 3,
+    "hey": 4,
+    "bye": 1,
+    "goodbye": 2,
+    "see": 12,
+    "you": 17,
+    "total": 15,
+    "sales": 11,
+    "show": 13,
+    "what": 16,
+    "is": 7,
+    "average": 0,
+    "highest": 6,
+    "top": 14,
+    "product": 10,
+    "lowest": 9,
+    "least": 8
+  },
+  "intent": {
+    "greet": 2,
+    "goodbye": 1,
+    "total_sales": 5,
+    "average_sales": 0,
+    "highest_sales": 3,
+    "lowest_sales": 4
+  },
+  "response": null,
+  "action_name": {
+    "action_listen": 8,
+    "action_restart": 10,
+    "action_session_start": 12,
+    "action_default_fallback": 5,
+    "action_deactivate_loop": 2,
+    "action_revert_fallback_events": 11,
+    "action_default_ask_affirmation": 3,
+    "action_default_ask_rephrase": 4,
+    "action_two_stage_fallback": 14,
+    "action_unlikely_intent": 15,
+    "action_back": 1,
+    "action_extract_slots": 6,
+    "action_average_sales": 0,
+    "action_highest_sales": 7,
+    "action_lowest_sales": 9,
+    "action_total_sales": 13,
+    "utter_greet": 16
+  },
+  "action_text": null,
+  "intent_response_key": null
+}

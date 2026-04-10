@@ -1,0 +1,13 @@
+actions:
+  - action_total_sales
+  - action_average_sales
+  - action_highest_sales
+  - action_lowest_sales
+  - action_profit_percentage
+  - action_read_sales_csv
+  - action_read_employee_excel
+  - action_read_complaints
+  - action_top_product
+  - action_least_product
+  - action_total_employees
+  - action_best_employee

@@ -1,0 +1,35 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+
+- intent: total_sales
+  examples: |
+    - total sales
+    - show total sales
+    - what is total sales
+
+- intent: average_sales
+  examples: |
+    - average sales
+    - show average sales
+
+- intent: highest_sales
+  examples: |
+    - highest sales
+    - top sales product
+
+- intent: lowest_sales
+  examples: |
+    - lowest sales
+    - least sales product

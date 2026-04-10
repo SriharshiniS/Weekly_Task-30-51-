@@ -1,0 +1,28 @@
+version: "3.1"
+
+stories:
+
+- story: greet path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: total sales
+  steps:
+  - intent: total_sales
+  - action: action_total_sales
+
+- story: average sales
+  steps:
+  - intent: average_sales
+  - action: action_average_sales
+
+- story: highest sales
+  steps:
+  - intent: highest_sales
+  - action: action_highest_sales
+
+- story: lowest sales
+  steps:
+  - intent: lowest_sales
+  - action: action_lowest_sales

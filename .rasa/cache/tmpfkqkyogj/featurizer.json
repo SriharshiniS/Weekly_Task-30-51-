@@ -1,0 +1,50 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "back": 0,
+        "nlu_fallback": 1,
+        "out_of_scope": 2,
+        "restart": 3,
+        "session_start": 4
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "action_total_sales": 13,
+        "action_average_sales": 14,
+        "action_highest_sales": 15,
+        "action_lowest_sales": 16,
+        "action_profit_percentage": 17,
+        "action_read_sales_csv": 18,
+        "action_read_employee_excel": 19,
+        "action_read_complaints": 20,
+        "action_top_product": 21,
+        "action_least_product": 22,
+        "action_total_employees": 23,
+        "action_best_employee": 24,
+        "utter_goodbye": 25,
+        "utter_greet": 26
+      },
+      "entities": {},
+      "slots": {},
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": null
+}
